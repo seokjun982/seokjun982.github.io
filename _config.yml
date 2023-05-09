@@ -59,14 +59,14 @@ about_content: |
  
  
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>C++</mark> and <mark>C</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: my project
         link: github.com/seokjun982
         # link_text: Project Website
         additional_links:
