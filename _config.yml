@@ -77,7 +77,7 @@ content:
         quote: >
           I have organized the materials and projects that I have studied and worked on so far into a GitHub repository.
         description: | # this will include new lines to allow paragraphs
-          I started using <mark>GitHub<mark> to study and organize my knowledge of C and C++ programming languages, but it has since allowed me to learn many new skills and build up my portfolio.
+          I started using GitHub to study and organize my knowledge of C and C++ programming languages, but it has since allowed me to learn many new skills and build up my portfolio.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
