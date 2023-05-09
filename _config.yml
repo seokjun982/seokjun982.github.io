@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+#repository: sproogen/resume-theme
+#favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 오석준
+title: Embedded Engineer
+email: osj982@naver.com
+website: www.github.com/seokjun982
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  seokjun982
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,10 +45,19 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  저는 임베디드 개발자가 되고싶은 오석준입니다.
+  학부시절 여러 프로젝트를 수행하며 개발자의 꿈을 키울 수 있었습니다.
+  특히 임베디드 시스템 수업을 통하여 다양한 센서와 모듈을 활용하여 원하는 서비스를 구현하는 과정은 임베디드의 개발자로 진로를 결정하게 해준 경험입니다.
+  대학을 졸업한 후  실무에서 많이 사용되는 다양한 임베디드 보드에 대한 개발 경험을 쌓기 위해 대한상공회의소 서울기술교육센터에서 자율형 IoT 기반 Reality AI 융합 전문가 과정을 수료하고 있습니다. 
+  교육과정을 통하 ARM Cortex-M3/M4, Udoo, Raspberry Pi,Jetson nano 등 다양한 임베디드 보드에 대한 경험을 쌓을 수 있었으며, 디바이스 드라이버 개발 및 펌웨어 개발 등도 경험해 보았습니다. 
+  
+  저의 모토는 나의 위치에서 내가 해야 할 일을 성실하고 꾸준하게 책임감 있게 행동하는 것입니다.
+  이러한 경험들을 바탕으로, 회사에서 성장하고 발전하며 기여하고싶습니다. 
+ 
+ 
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -58,7 +67,7 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: github.com/seokjun982
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -76,11 +85,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: The Redtable Company
+        link: https://company.redtable.global/main/
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Intern Data Preprocessing   
+        caption: August 2022 - November 2022
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -90,9 +99,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Hallym University
+        caption: 2015 - 2022
+        sub_title: Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
