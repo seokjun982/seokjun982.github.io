@@ -91,13 +91,14 @@ content:
             -
 
 
-  - title: Projects # Title for the section
+  - title: Projects Statement # Title for the section
     layout: list
     content:
       - layout: top-middle
         title: my project
         link: github.com/seokjun982
         
+   
    - title: Project # Title for the section  
      layout: list # Type of content section (list/text)
      content:       
@@ -138,7 +139,17 @@ content:
           - Androidstudio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
           - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE, Vim 등을 사용
 
-        
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 대한상공회의소 서울기술교육센터
+        link: www.kccistc.net
+        # link_text: http://www.kccistc.net/
+        sub_title: 자율형 IOT기반 Reality AI융합 전문가 [일반인]
+        caption: 22.12.20 - 23.07.10       
+        description: | # this will include new lines to allow paragraphs
+            
         
         quote: >
           I have organized the materials and projects that I have studied and worked on so far into a GitHub repository.
@@ -158,32 +169,7 @@ content:
         description: 
             To digitize all restaurants, it requires the process of collecting, processing, and analyzing data. I was responsible for processing and analyzing data at the company.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Hallym University
-        caption: 2015 - 2022
-        sub_title: Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: 
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
+  
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
