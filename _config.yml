@@ -85,26 +85,20 @@ content:
         caption:        
         description: | # this will include new lines to allow paragraphs
    
-   
-   - title: Projects Statement # Title for the section
-    layout: list
-    content:
-      - layout: top-middle
-        title: my project
-        link: github.com/seokjun982         
+         
 
   - title: Project # Title for the section  
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 스마트 보안 도어락 <br/> (팀 프로젝트)
+        title: Healthcare Management <br/> (팀 프로젝트)
         sub_title: |
           사용 기술 : <br/>
           Arduino, RFID, C, C++, Interrupt, Servo Motor, UART <br/>
         caption: 2023.01.22 - 01.29
         description: | # this will include new lines to allow paragraphs
-          - Arduino RFID를 사용하여 마스터 키와 게스트 키를 설정 후 DB에 저장 된 키와 맞는 카드만 출입 허가하는 시스템 구현
-          - Uart 통신을 사용하여 송신부와 수신부의 분리
+          - RFID를 이용하여 헬스회원의 정보를 DB에 저장하며 음파센서를 이용하여 훈동횟수를 카운트하며 부저와 LCD를 통하여 운동횟수를 보여준다(올바른 자세로 진행하지 않으면 카운트는 증가하지 않는다) 
+          - Uart 통신을 사용하여 송신부와 수신부의 분리, Bluetooth를 이용하여 회원정보 전송 
           - Arduino IDE를 프로그램 사용
       
       - layout: left
@@ -120,17 +114,17 @@ content:
           - Vim, Visual Studio, Linux, Unbuntu, ROS등을 사용
 
       - layout: left
-        title: 졸음운전방지시스템 <br/> (팀 프로젝트)
+        title: 옥상정원관리시스템 <br/> (팀 프로젝트)
         sub_title: |
           사용 기술 : <br/>
-          C, C++, JAVA, TCP/IP, UART, Android, Firebase, Cortex-M4, Arduino, Linux, mariaDB, PHP, Intterupt <br/>
+          C, C++, JAVA, TCP/IP, UART, Android, Cortex-M4, Arduino, Linux, mariaDB, PHP, Water pump, DHT11, 조도센서,servo motor Intterupt <br/>
         caption: 2023.04.02 - 04.10
         description: | # this will include new lines to allow paragraphs
           - Linux에 서버를 만들어 Arduino, Cortex M4, Android 서로 통신시스템을 구현
-          - 운전자의 상태를 Arduino 보드에 초음파 센서와 진동감지 센서등을 달아 현상태를 실시간으로 서버에 전송
-          - 서버에서 받은 데이터를 mariaDB에 저장하고, php로 운전자의 상태를 그래프로 표현
-          - Cortex M4 에 ServoMotor 제어와 DC Motor를 제어
-          - Androidstudio로 Android App으로 운전자의 상태를 화면에 띄우고, Firebase를 통하여 PushMessage로 받을 수 있는 시스템 구현
+          - 옥상정원의 상태를 Arduino 보드에 온습도센서와 조도센서등을 달아 상태를 실시간으로 서버에 전송
+          - 서버에서 받은 데이터를 mariaDB에 저장하고, php로 옥상정원의 상태를 그래프로 표현
+          - Cortex M4 에 ServoMotor 제어와 Mortor Pump를 제어
+          - Androidstudio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
           - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE, Vim 등을 사용
 
   - title: Education # Title for the section
@@ -143,29 +137,19 @@ content:
         sub_title: 자율형 IOT기반 Reality AI융합 전문가 [일반인]
         caption: 22.12.20 - 23.07.10       
         description: | # this will include new lines to allow paragraphs
-            - 저를 임베디드 개발자로서 만들어준 곳 이며, MCU에 대해 자세하게 배우고 다양한 센서를 C, C++, Python 등의 프로그래밍 언어로 제어하며 통제하는 방법을 습득하였습니다. 이를 기반으로 공모전이나 팀 프로젝트를 진행하여 결과물을 도출하면서 실력을 쌓았습니다.
-            이러한 경험은 저에게 프로그래밍 분야에서 더욱 깊은 이해와 창의성을 키울 수 있는 기반이 되었습니다.
             
       - layout: left
-        title: 게임콘텐츠(MAYA) 개발 및 취업과정
-        sub_title: 그린컴퓨터아카데미
-        caption: 17.08.23 - 18.03.29       
-        description: | # this will include new lines to allow paragraphs
-            - 영상편집과 3D 그래픽 툴을 사용하여 영상 개념을 습득하였고, 이러한 경험은 임베디드 IoT와는 직접적으로 관련이 없지만, OpenCV 사용 시에도 큰 도움이 되었습니다. 이를 통해 영상 처리에 대한 이해도가 높아져, 더욱 효율적인 코드 작성과 문제 해결에 이바지할 수 있었습니다.
-            
-      - layout: left
-        title: 청강문화산업대
+        title: 한림대학교
         caption: 2010 - 2016
-        sub_title: 무대미술전공        
+        sub_title: 컴퓨터공학과        
         description: | # this will include new lines to allow paragraphs
-          - 비록 전공과 다른 전공이지만 배운 점으로 최소 40명이상의 팀 프로젝트에서 무대공연을 통해 얻은 의사소통 경험은 프로젝트 실행에도 큰 도움이 될 수 있다고 생각합니다.
+          
           
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - 이번에 열린 2023 World IT Show에 참가하거나 EV트렌드코리아 2023 전시회에 참가하며 시장의 트렌드와 동향을 분석하기도 했습니다.<br/>
-      - 교육시간 이외에도 남아서 이해하지 못한 것에 대해 복습하고, 나의 것으로 만들기 위해 노력하였습니다.<br/>
-      - 학사 학위를 준비 중이며, 2024년 2월에 학위 수여를 목표로 계획 중입니다.<br/>
+      - EV트렌드코리아 2023 전시회에 참가하며 시장의 트렌드와 동향을 분석 했습니다.<br/>
+     
 
 # Footer
 footer_show_references: true
