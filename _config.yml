@@ -6,17 +6,17 @@
 version: 2
 
 # Personal info
-name: 배차인
+name: 오석
 title: Embedded Engineer
-email: baecain@gmail.com
-website: www.github.com/Bchain91
+email: osj982@naver.com
+website: www.github.com/seokjun982
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  Bchain91
+github_username:  seokjun982
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -48,13 +48,13 @@ github_username:  Bchain91
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  저는 임베디드 개발자를 지망하는 배차인입니다.<br/>
-  코드를 통해 작동하는 원리에 대한 흥미와 호기심을 가지고 개발자를 준비하게 되었습니다.<br/>
-  주로 C언어를 중점적으로 공부하여, Cortex M4, Udoo, Raspberry pi, Jetson 등의 하드웨어를 다루었으며, openCV를 사용하여 Turtlebot3 자율주행 프로젝트를 수행한 경험이 있습니다.<br/>
-  저는 문제가 생기면 해결할 때까지 끝까지 책임감을 가지고 프로젝트를 진행합니다. 모르는 것에 대한 배우려는 의지도 매우 강하며, 어려운 문제가 발생하면 자신의 역량을 더욱 키우기 위해 노력합니다.<br/>
-  이를 위해 인터넷 검색, 책, 논문 등 다양한 자료를 활용하여 스스로 문제를 해결하는 능력을 키우기 위해 노력합니다.<br/>
-  또한, 좋은 정보가 있으면 혼자만 알고 있지 않고 팀원들과 함께 공유하여 우리의 프로젝트에 더욱 도움이 되도록 노력합니다.<br/>
-  이러한 커뮤니케이션과 지식 공유를 통해 팀의 역량을 키우고 성공적인 프로젝트를 완수하는 것이 제 목표입니다.<br/>
+  안녕하세요! 임베디드 개발자가 되고싶은 오석준입니다.<br/>
+  대학 시절 여러 프로젝트를 수행하면서 개발자로서의 역량을 키울 수 있었습니다.<br/>
+  특히 임베디드 시스템 수업에서 센서와 모듈을 활용하여 다양한 서비스를 구현하는 과정은 저에게 임베디드 개발자로의 진로를 결정하게 해 준 중요한 경험이었습니다.<br/>
+  대학을 졸업한 후에는 실무에서 사용되는 다양한 임베디드 보드에 대한 개발 경험을 쌓기 위해 대한상공회의소 서울기술교육센터에서 자율형 IoT 기반 Reality AI 융합 전문가 과정을 수료하고있습니다.<br/> 
+  교육과정에서는 ARM Cortex-M3/M4, Udoo, Raspberry Pi, Jetson nano 등 다양한 임베디드 보드에 대한 경험을 쌓을 수 있었으며, 디바이스 드라이버 개발 및 펌웨어 개발, ROS, OpenCV를 이용한 자율주행 로봇 프로젝트를 진행하였습니다.<br/>
+  저의 모토는 나의 위치에서 내가 해야 할 일을 성실하고 꾸준하게 책임감 있게 행동하는 것입니다.<br/>
+  이러한 경험들을 바탕으로 회사와 동반성장 하고싶습니다.<br/> 
 
 content:
 
@@ -62,29 +62,29 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 정보처리산업기사       
-        sub_title: 한국산업인력공단        
-        description: | # this will include new lines to allow paragraphs
-            - 2023.06.09 취득
-
-      - layout: left
         title: 리눅스마스터 2급       
-        sub_title: 한국정보통신진흥협회      
+        sub_title: 한국정보통신진흥협회        
         description: | # this will include new lines to allow paragraphs
             - 2023.03.31 취득
+
+      - layout: left
+        title: 항공무선통신사       
+        sub_title: 한국방송통신전파진흥원      
+        description: | # this will include new lines to allow paragraphs
+            - 2022.09.30 취득
             
       - layout: left
-        title: 운전면허증 1종 보통       
+        title: 운전면허증 1종 대형       
         sub_title: 서울지방경찰청
         description: | # this will include new lines to allow paragraphs
-            - 2018.09.17 취득
+            - 2019.01.03 취득
             
       - layout: left
-        title: 무대예술전문인 기계 3급      
-        sub_title: 문화체육관광부
-        caption: 2015.09.02       
+        title: 정보통신기사(필기)      
+        sub_title: 한국방송통신전파진흥원
+        caption:        
         description: | # this will include new lines to allow paragraphs
-            - 2015.09.02 취득
+            
 
   - title: Project # Title for the section  
     layout: list # Type of content section (list/text)
