@@ -84,7 +84,14 @@ content:
         sub_title: 한국방송통신전파진흥원
         caption:        
         description: | # this will include new lines to allow paragraphs
-            
+   
+   
+   - title: Projects Statement # Title for the section
+    layout: list
+    content:
+      - layout: top-middle
+        title: my project
+        link: github.com/seokjun982         
 
   - title: Project # Title for the section  
     layout: list # Type of content section (list/text)
