@@ -90,6 +90,18 @@ content:
   - title: Project # Title for the section  
     layout: list # Type of content section (list/text)
     content:
+      
+      - layout: left
+        title: 딥러닝을 이용한 수면 평가 캡스톤 <br/> 가을 학기 빅데이터 캡스톤 (한림대학교 소프트웨어융합대학)
+        sub_title: |
+          사용 기술 : <br/>
+          JetsonNano,Colab,Pytorch,python,CNN,DNN,LSTM,RNN
+        caption: 2020.09.04 - 2020.10.22
+        description: | # this will include new lines to allow paragraphs
+          - 공공데이터로 제공되는 다채널의 EEG,EOC,EMC 데이터에 근거하여 Deep-Learning 기술 및 최신기술인 CNN 및 RNN/LSTM 등을 적용
+          - 오픈소스(Google Colab) Pyhon 및 관련 라이브러리를 활용.
+          - Jetson nano보드를 이용하여 Edge 단에서 실시간 AI적용
+
       - layout: left
         title: Healthcare Management <br/> (팀 프로젝트)
         sub_title: |
@@ -143,6 +155,21 @@ content:
         caption: 2010 - 2016
         sub_title: 컴퓨터공학과        
         description: | # this will include new lines to allow paragraphs
+  
+  
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Redtable Company
+        link: https://company.redtable.global/main/
+        # link_text: boringcompany.com
+        sub_title: Intern Data Preprocessing   
+        caption: August 2022 - November 2022
+        quote: >
+            We are taking the lead in the nationwide digital transformation of restaurants through a collaboration model between the government and local authorities.
+        description: 
+            To digitize all restaurants, it requires the process of collecting, processing, and analyzing data. I was responsible for processing and analyzing data at the company.      
           
           
   - title: A Little More About Me
