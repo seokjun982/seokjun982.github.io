@@ -63,7 +63,7 @@ about_content: |
 
 content:
     
-    - title: Certificate # Title for the section
+  - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -88,7 +88,7 @@ content:
         title: 정보통신기사(필기)      
         sub_title: 한국방송통신전파진흥원  
         description: | # this will include new lines to allow paragraphs
-            
+            -
 
 
   - title: Projects # Title for the section
@@ -98,6 +98,9 @@ content:
         title: my project
         link: github.com/seokjun982
         
+   - title: Project # Title for the section  
+     layout: list # Type of content section (list/text)
+     content:       
         - layout: left
         title: Healthcare Management <br/> (팀 프로젝트)
         sub_title: |
