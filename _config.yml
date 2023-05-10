@@ -62,17 +62,80 @@ about_content: |
   I am most skilled in: <mark>C++</mark> and <mark>C</mark>
 
 content:
-  - title: Projects # Title for the section
+    
+    - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 항공무선통신사       
+        sub_title: 한국방송통신전파진흥원       
+        description: | # this will include new lines to allow paragraphs
+            - 2022.09.30 취득
+
+      - layout: left
+        title: 리눅스마스터 2급       
+        sub_title: 한국정보통신진흥협회      
+        description: | # this will include new lines to allow paragraphs
+            - 2023.03.31 취득
+            
+      - layout: left
+        title: 운전면허증 1종 대형       
+        sub_title: 서울지방경찰청
+        description: | # this will include new lines to allow paragraphs
+            - 2019.01.03 취득
+            
+      - layout: left
+        title: 정보통신기사(필기)      
+        sub_title: 한국방송통신전파진흥원  
+        description: | # this will include new lines to allow paragraphs
+            
+
+
+  - title: Projects # Title for the section
+    layout: list
     content:
       - layout: top-middle
         title: my project
         link: github.com/seokjun982
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        
+        - layout: left
+        title: Healthcare Management <br/> (팀 프로젝트)
+        sub_title: |
+          사용 기술 : <br/>
+          Arduino, RFID, C, C++, Interrupt, Ultra Sonic(HC-SR04), UART, Bluetooth(HC-06),Buzzer, <br/>
+        caption: 2023.01.22 - 01.29
+        description: | # this will include new lines to allow paragraphs
+          - RFID를 이용하여 헬스회원의 정보를 DB에 저장하며 음파센서를 이용하여 훈동횟수를 카운트하며 부저와 LCD를 통하여 운동횟수를 보여준다(올바른 자세로 진행하지 않으면 카운트는 증가하지 않는다) 
+          - Uart 통신을 사용하여 송신부와 수신부의 분리, Bluetooth를 이용하여 회원정보 전송 
+          - Arduino IDE를 프로그램 사용
+      
+      - layout: left
+        title: V2X를 통한 자율주행시스템 <br/> (2023 ICT 융합 프로젝트 공모전)
+        sub_title: |
+          사용 기술 : <br/>
+          C, C++, JAVA, Python ROS, OpenCV, Turtlebot3, Jetson nano, Raspberry pi, Cmake
+        caption: 2023.02.20 - 진행 중
+        description: | # this will include new lines to allow paragraphs
+          - V2X를 사용하며, Turtlebot3 자율주행 시스템을 계획
+          - OpenCV를 사용하여 차선 인식과, 표지판, 교통신호를 인식하여 Turtlebot3 자율주행
+          - LiDAR센서를 이용하여 Map을 그리고, SLAM을 사용하여 Navigation을 사용
+          - Vim, Visual Studio, Linux, Unbuntu, ROS등을 사용
+
+      - layout: left
+        title: 옥상정원관리시스템 <br/> (팀 프로젝트)
+        sub_title: |
+          사용 기술 : <br/>
+          C, C++, JAVA, TCP/IP, UART, Android, Cortex-M4, Arduino, Linux, mariaDB, PHP, Water pump, DHT11, 조도센서,servo motor Intterupt <br/>
+        caption: 2023.04.02 - 04.10
+        description: | # this will include new lines to allow paragraphs
+          - Linux에 서버를 만들어 Arduino, Cortex M4, Android 서로 통신시스템을 구현
+          - 옥상정원의 상태를 Arduino 보드에 온습도센서와 조도센서등을 달아 상태를 실시간으로 서버에 전송
+          - 서버에서 받은 데이터를 mariaDB에 저장하고, php로 옥상정원의 상태를 그래프로 표현
+          - Cortex M4 에 ServoMotor 제어와 Mortor Pump를 제어
+          - Androidstudio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
+          - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE, Vim 등을 사용
+
+        
         
         quote: >
           I have organized the materials and projects that I have studied and worked on so far into a GitHub repository.
