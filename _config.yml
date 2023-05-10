@@ -104,7 +104,7 @@ content:
      content:       
         - layout: left
         title: Healthcare Management <br/> (팀 프로젝트)
-        sub_title: |
+        sub_title:
           사용 기술 : <br/>
           Arduino, RFID, C, C++, Interrupt, Ultra Sonic(HC-SR04), UART, Bluetooth(HC-06),Buzzer, <br/>
         caption: 2023.01.22 - 01.29
@@ -115,7 +115,7 @@ content:
       
       - layout: left
         title: V2X를 통한 자율주행시스템 <br/> (2023 ICT 융합 프로젝트 공모전)
-        sub_title: |
+        sub_title:
           사용 기술 : <br/>
           C, C++, JAVA, Python ROS, OpenCV, Turtlebot3, Jetson nano, Raspberry pi, Cmake
         caption: 2023.02.20 - 진행 중
@@ -127,7 +127,7 @@ content:
 
       - layout: left
         title: 옥상정원관리시스템 <br/> (팀 프로젝트)
-        sub_title: |
+        sub_title:
           사용 기술 : <br/>
           C, C++, JAVA, TCP/IP, UART, Android, Cortex-M4, Arduino, Linux, mariaDB, PHP, Water pump, DHT11, 조도센서,servo motor Intterupt <br/>
         caption: 2023.04.02 - 04.10
@@ -149,12 +149,11 @@ content:
         sub_title: 자율형 IOT기반 Reality AI융합 전문가 [일반인]
         caption: 22.12.20 - 23.07.10       
         description: | # this will include new lines to allow paragraphs
-            
-        
         quote: >
           I have organized the materials and projects that I have studied and worked on so far into a GitHub repository.
         description: | # this will include new lines to allow paragraphs
           I started using GitHub to study and organize my knowledge of C and C++ programming languages, but it has since allowed me to learn many new skills and build up my portfolio.
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
