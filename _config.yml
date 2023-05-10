@@ -48,14 +48,13 @@ github_username:  seokjun982
 about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | 
-  안녕하세요! 임베디드 개발자가 되고싶은 오석준입니다.
+  안녕하세요! 임베디드 개발자가 되고싶은 오석준입니다..<br/>
   대학 시절 여러 프로젝트를 수행하면서 개발자로서의 역량을 키울 수 있었습니다. 
-  특히 임베디드 시스템 수업에서 센서와 모듈을 활용하여 다양한 서비스를 구현하는 과정은 저에게 임베디드 개발자로의 진로를 결정하게 해 준 중요한 경험이었습니다.
-  대학을 졸업한 후에는 실무에서 사용되는 다양한 임베디드 보드에 대한 개발 경험을 쌓기 위해 대한상공회의소 서울기술교육센터에서 자율형 IoT 기반 Reality AI 융합 전문가 과정을 수료하고있습니다. 
-  교육과정에서는 ARM Cortex-M3/M4, Udoo, Raspberry Pi, Jetson nano 등 다양한 임베디드 보드에 대한 경험을 쌓을 수 있었으며, 디바이스 드라이버 개발 및 펌웨어 개발,
-  ROS, OpenCV를 이용한 자율주행 로봇 프로젝트를 진행하였습니다.
-  저의 모토는 나의 위치에서 내가 해야 할 일을 성실하고 꾸준하게 책임감 있게 행동하는 것입니다.
-  이러한 경험들을 바탕으로 회사와 동반성장 하고싶습니다. 
+  특히 임베디드 시스템 수업에서 센서와 모듈을 활용하여 다양한 서비스를 구현하는 과정은 저에게 임베디드 개발자로의 진로를 결정하게 해 준 중요한 경험이었습니다.<br/>
+  대학을 졸업한 후에는 실무에서 사용되는 다양한 임베디드 보드에 대한 개발 경험을 쌓기 위해 대한상공회의소 서울기술교육센터에서 자율형 IoT 기반 Reality AI 융합 전문가 과정을 수료하고있습니다.<br/> 
+  교육과정에서는 ARM Cortex-M3/M4, Udoo, Raspberry Pi, Jetson nano 등 다양한 임베디드 보드에 대한 경험을 쌓을 수 있었으며, 디바이스 드라이버 개발 및 펌웨어 개발, ROS, OpenCV를 이용한 자율주행 로봇 프로젝트를 진행하였습니다.<br/>
+  저의 모토는 나의 위치에서 내가 해야 할 일을 성실하고 꾸준하게 책임감 있게 행동하는 것입니다.<br/>
+  이러한 경험들을 바탕으로 회사와 동반성장 하고싶습니다.<br/> 
  
  
 
@@ -147,26 +146,15 @@ content:
         sub_title: 자율형 IOT기반 Reality AI융합 전문가 [일반인]
         caption: 22.12.20 - 23.07.10       
         description: | # this will include new lines to allow paragraphs
-        quote: >
-          I have organized the materials and projects that I have studied and worked on so far into a GitHub repository.
-        description: | # this will include new lines to allow paragraphs
-          I started using GitHub to study and organize my knowledge of C and C++ programming languages, but it has since allowed me to learn many new skills and build up my portfolio.
+            
+     
           
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Redtable Company
-        link: https://company.redtable.global/main/
-        # link_text: boringcompany.com
-        sub_title: Intern Data Preprocessing   
-        caption: August 2022 - November 2022
-        quote: >
-            We are taking the lead in the nationwide digital transformation of restaurants through a collaboration model between the government and local authorities.
-        description: 
-            To digitize all restaurants, it requires the process of collecting, processing, and analyzing data. I was responsible for processing and analyzing data at the company.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - EV트렌드코리아 2023 전시회에 참가하며 시장의 트렌드와 동향을 분석.<br/>
 
-  
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
