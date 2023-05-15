@@ -95,11 +95,11 @@ content:
         title: 딥러닝을 이용한 수면 평가 캡스톤 <br/> 가을 학기 빅데이터 캡스톤 (한림대학교 소프트웨어융합대학)
         sub_title: |
           사용 기술 : <br/>
-          JetsonNano,Colab,Pytorch,python,CNN,DNN,LSTM,RNN
+          JetsonNano,Colab,Torch,python,CNN,DNN,LSTM,RNN
         caption: 2020.09.04 - 2020.10.22
         description: | # this will include new lines to allow paragraphs
           - 공공데이터로 제공되는 다채널의 EEG,EOC,EMC 데이터에 근거하여 Deep-Learning 기술 및 최신기술인 CNN 및 RNN/LSTM 등을 적용
-          - 오픈소스(Google Colab) Pyhon 및 관련 라이브러리를 활용.
+          - 오픈소스(Google Colab) Python 및 관련 라이브러리를 활용.
           - Jetson nano보드를 이용하여 Edge 단에서 실시간 AI적용
 
       - layout: left
@@ -121,22 +121,22 @@ content:
         caption: 2023.02.20 - 진행 중
         description: | # this will include new lines to allow paragraphs
           - V2X를 사용하며, Turtlebot3 자율주행 시스템을 계획
-          - OpenCV를 사용하여 차선 인식과, 표지판, 교통신호를 인식하여 Turtlebot3 자율주행
+          - OpenCV를 사용하여 차선 인식과, 표지판, 교통신호를 인식하여 Turtlebot 3 자율주행
           - LiDAR센서를 이용하여 Map을 그리고, SLAM을 사용하여 Navigation을 사용
-          - Vim, Visual Studio, Linux, Unbuntu, ROS등을 사용
+          - Vim, Visual Studio, Linux, Ubuntu, ROS등을 사용
 
       - layout: left
         title: 옥상정원관리시스템 <br/> (팀 프로젝트)
         sub_title: |
           사용 기술 : <br/>
-          C, C++, JAVA, TCP/IP, UART, Android, Cortex-M4, Arduino, Linux, mariaDB, PHP, Water pump, DHT11, 조도센서,servo motor Intterupt <br/>
+          C, C++, JAVA, TCP/IP, UART, Android, Cortex-M4, Arduino, Linux, mariaDB, PHP, Water pump, DHT11, 조도센서,servo motor Interrupt <br/>
         caption: 2023.04.02 - 04.10
         description: | # this will include new lines to allow paragraphs
           - Linux에 서버를 만들어 Arduino, Cortex M4, Android 서로 통신시스템을 구현
           - 옥상정원의 상태를 Arduino 보드에 온습도센서와 조도센서등을 달아 상태를 실시간으로 서버에 전송
           - 서버에서 받은 데이터를 mariaDB에 저장하고, php로 옥상정원의 상태를 그래프로 표현
-          - Cortex M4 에 ServoMotor 제어와 Mortor Pump를 제어
-          - Androidstudio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
+          - Cortex M4 에 Servo Motor 제어와 Motor Pump를 제어
+          - Android Studio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
           - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE, Vim 등을 사용
 
   - title: Education # Title for the section
@@ -183,11 +183,4 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
