@@ -137,7 +137,7 @@ content:
           - 서버에서 받은 데이터를 mariaDB에 저장하고, php로 옥상정원의 상태를 그래프로 표현
           - Cortex M4 에 Servo Motor 제어와 Motor Pump를 제어
           - Android Studio로 Android App으로 옥상정원 상태를 화면에 띄우고, 원격으로 서보모터와 물펌프 제어
-          - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE, Vim 등을 사용
+          - IAR, AndroidStudio, Visual Studio, Vim, Arduino IDE등을 사용
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
